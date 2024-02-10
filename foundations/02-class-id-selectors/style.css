@@ -1,0 +1,26 @@
+p {
+    color: black; 
+    font-family: Verdana, sans-serif;
+    background-color: rgb(252, 181, 181);
+}
+
+p.unique {
+    font-size: 26px;
+}
+
+div {
+    color:blue;
+    font-size: 36px;
+
+
+
+}
+
+#number {
+    color: black;
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+
+
+}
