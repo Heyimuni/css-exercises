@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <link rel="stylesheet" href="style.css">
+<head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
 
-<!-- internal css       -->
+      <!-- internal css       -->
        <style> 
         .q {
-          color: white;
-          background-color: green;
-          font-size: small;
-          text-align: start;
-          font-weight: 100;
+            color: white;
+            background-color: green;
+            font-size: small;
+            text-align: start;
+            font-weight: 100;
         }
-     /* If I don't add text align and font weight then its taking the elements from external css and applying, i think? */
+   
       </style>
 </head>
 <body>
-     <p> 
-      <div>Style me via the external method!
+ 
+    <!-- external css  -->
+    <div>Style me via the external method!</div> 
 
-      </div> 
-    </p>
+    <!-- internal css       --> 
+    <div class="q"> I would like to be styled with the internal method, please. </div> 
 
-   <p> 
-    <div class="q"> I would like to be styled with the internal method, please. </div> </p>
-    
-    <!-- "Inline CSS applies styles directly to individual HTML elements using the 'style' attribute." -->
-<div style="color: black; background-color: orange;"
-  <button style="text-align: left;"</button></div>
+    <!-- inline css  -->
+    <div style="color: black; background-color: transparent; width: fit-content;">
+    <button style="text-align: left; background-color: orange; width: auto;">Inline Method</button></div>
 
-  </body>
+
+</body>
 </html>
-
-  <div style="color: black; width: fit-content;">
-    <!-- Applying inline styles to the button element -->
-    <button style="text-align: left; background-color: orange; display: block; width: auto;">Inline Method</button>
-</div>
-
-
-
 
