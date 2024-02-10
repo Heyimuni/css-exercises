@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
-  </head>
-  <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+
+<!-- internal css       -->
+       <style> 
+        .q {
+          color: white;
+          background-color: green;
+          font-size: small;
+          text-align: start;
+          font-weight: 100;
+        }
+     /* If I don't add text align and font weight then its taking the elements from external css and applying, i think? */
+      </style>
+
+
+</head>
+<body>
+     <p> <div>Style me via the external method!</div> </p>
+
+
+
+   <p> <div class="q"> I would like to be styled with the internal method, please. </div> </p>
+    
+
+    <div style="color: black; background-color: orange; inline button </div>
+
   </body>
 </html>
+
+
